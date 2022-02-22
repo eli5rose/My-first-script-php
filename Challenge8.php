@@ -17,17 +17,17 @@
     <div>
       <br>
       <label for="name">Last Name:</label>
-      <input type="text"  id="name"  name="last_name" placeholder="Smith">
+      <input type="text"  id="name"  name="last_name" placeholder="Smith" required>
     </div>
     <br>
     <div>
       <label for="phone">Phone Number :</label>
-      <input type="tel" id="phone" name="phone">
+      <input type="tel" id="phone" name="phone" requiered>
     </div>
     <br>
     <div>
-      <label  for="email">Email :</label>
-      <input  type="email"  id="email"  name="user_email" placeholder="email@email.com" required>
+      <label for="email">Email :</label>
+      <input type="email"  id="email"  name="user_email" placeholder="email@email.com" required>
     </div>
     <br>
       <label for="txt">Suject :
@@ -43,11 +43,11 @@
    </div>
    <br>
     <div>
-      <label  for="message">Message :</label>
+      <label for="message">Message :</label>
       <textarea  id="message"  name="user_message"></textarea>
     </div>
     <br>
-    <div  class="button">
+    <div class="button">
       <button  type="submit">Send your message</button>
     </div>
   </form>
